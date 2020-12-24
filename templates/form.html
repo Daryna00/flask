@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Approach &mdash; Website Template by Colorlib
+{% endblock title %}
+{% block portfolio %}
+<link rel="stylesheet" href="../static/js/reg.js">
+<h1 class="text-primary">Please, register here!</h1>
+
+<div class="contaiter">
+    <form id="regForm">
+
+
+        <div class="form-group">
+            <label for="login">Login</label>
+            <input type="text" class="form-control" id="login" placeholder="Input your login">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button id='btnReg' type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="result"></div>
+</div>
+
+
+<script src="static/js/reg.js"></script>
+
+{% endblock portfolio %}
+
+{% block contentphoto%}
+
+{% endblock contentphoto%}
+
+{% block choice %}
+
+{% endblock choice %}
+
+
+{% block footer %}
+
+{% endblock footer %}
